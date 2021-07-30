@@ -22,3 +22,9 @@ Write a sender and receiver program in C using connection less socket. Both of t
     - declare the `socketadd_in` structure
     - using `memset()`, initialise the server and client socket address structure
     - give the necessary details to the address 
+    - - use `sendto()` - send messages from one side to the other
+    - use `recvfrom()` - recieve messages from other side to this side
+
+
+### Sources:
+- [GFG article with implementation](https://www.geeksforgeeks.org/udp-server-client-implementation-c/)
